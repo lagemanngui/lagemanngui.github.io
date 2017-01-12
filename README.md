@@ -1,2 +1,4 @@
 # lagemanngui.github.io
-My portfolio page
+My personal page and blog.
+
+My resume: lagemanngui.github.io/resume
