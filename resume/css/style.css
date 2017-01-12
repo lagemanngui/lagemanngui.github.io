@@ -1,0 +1,112 @@
+html
+{
+  font-family: 'Roboto', sans-serif;
+}
+body
+{
+  background-color: white;
+}
+.img-box
+{
+  height:100%;
+}
+.row-cast-shadow
+{
+  -webkit-box-shadow: 0px 2px 11px 1px rgba(128,128,128,0.15);
+  -moz-box-shadow: 0px 2px 11px 1px rgba(128,128,128,0.15);
+  box-shadow: 0px 2px 11px 1px rgba(128,128,128,0.15);
+  border-bottom: solid 1px #E0E0E0;
+  background-color: #CFD8DC;
+}
+.default-profile-box
+{
+  background-color: #CFD8DC;
+  height: 210px;
+  text-align: center;
+
+}
+.about-box
+{
+  background-color: #F5F5F5;
+  z-index: -1;
+}
+.contact-profile-box
+{
+  background-color: #EEEEEE;
+  height: 210px;
+}
+.main-info
+{
+  line-height: 20px;
+}
+.main-info p{
+  font-size: 24px;
+  margin-left: 20px;
+}
+.local-info
+{
+  font-size: 16px;
+  color: #616161;
+}
+.work-and-skill
+{
+  background-color: #F5F5F5;
+}
+.work-and-skill-bg
+{
+  background-color: #F5F5F5;
+  padding: 0 0 0 0;
+  z-index: 1;
+}
+.year
+{
+  color:#4FC3F7;
+  font-size: 18px;
+  font-weight: bold;
+  float: left;
+}
+.separator
+{
+  float:left;
+  width: 100%;
+  height: 3px;
+  background-color: #4FC3F7;
+}
+.work-place
+{
+  margin-top: 56px;
+  margin-left: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.work-job
+{
+  font-size: 18px;
+  margin-left: 30px;
+  margin-top: -10px;
+}
+.work-desc
+{
+  font-size:12px;
+  margin-left: 30px;
+  border-left-color: #4FC3F7;
+  background-color: #EEEEEE;
+}
+.social-button
+{
+  height: 32px;
+  width: 32px;
+}
+.resume-footer
+{
+  height: 120px;
+  background-color: #424242;
+}
+.color-yellow
+{
+  background-color: #FFD54F;
+}
+.color-dark-grey
+{
+  color:#616161;
+}
