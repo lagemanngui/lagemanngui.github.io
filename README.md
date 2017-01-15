@@ -2,4 +2,4 @@
 My personal page and blog.
 
 ## Resume
-My [resume](lagemanngui.github.io/resume).
+My resume: lagemanngui.github.io/resume
