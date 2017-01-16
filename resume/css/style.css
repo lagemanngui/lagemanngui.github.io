@@ -4,7 +4,7 @@ html
 }
 body
 {
-  background-color: white;
+  background-color: #F5F5F5;
 }
 .img-box
 {
@@ -25,6 +25,11 @@ body
   text-align: center;
 
 }
+.profile-img-frame
+{
+
+  padding: 10px 10px 10px 10px;
+}
 .about-box
 {
   background-color: #F5F5F5;
@@ -41,7 +46,6 @@ body
 }
 .main-info p{
   font-size: 24px;
-  margin-left: 20px;
 }
 .local-info
 {
@@ -70,6 +74,7 @@ body
   float:left;
   width: 100%;
   height: 3px;
+  margin-bottom: 10px;
   background-color: #4FC3F7;
 }
 .work-place
@@ -96,6 +101,62 @@ body
 {
   height: 32px;
   width: 32px;
+}
+.skill-bar-bg
+{
+  background-color: #E0E0E0;
+  width: 90%;
+  height: 10px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.skill-fill
+{
+  background-color: #FFD54F;
+  width: 100%;
+  height: 10px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.skill-fill-10
+{
+  width: 10%;
+}
+.skill-fill-20
+{
+  width: 20%;
+}
+.skill-fill-30
+{
+  width: 30%;
+}
+.skill-fill-40
+{
+  width: 40%;
+}
+.skill-fill-50
+{
+  width: 50%;
+}
+.skill-fill-60
+{
+  width: 60%;
+}
+.skill-fill-70
+{
+  width: 70%;
+}
+.skill-fill-80
+{
+  width: 80%;
+}
+.skill-fill-90
+{
+  width: 90%;
+}
+.skill-fill-100
+{
+  width: 100%;
 }
 .resume-footer
 {
