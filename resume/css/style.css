@@ -6,9 +6,16 @@ body
 {
   background-color: #F5F5F5;
 }
+.resume-name
+{
+  font-size: 32px;
+  margin-top: 20px;
+  display: block;
+}
 .img-box
 {
   height:100%;
+  border-radius: 3px;
 }
 .row-cast-shadow
 {
@@ -16,7 +23,6 @@ body
   -moz-box-shadow: 0px 2px 11px 1px rgba(128,128,128,0.15);
   box-shadow: 0px 2px 11px 1px rgba(128,128,128,0.15);
   border-bottom: solid 1px #E0E0E0;
-  background-color: #CFD8DC;
 }
 .default-profile-box
 {
@@ -39,10 +45,12 @@ body
 {
   background-color: #EEEEEE;
   height: 210px;
+  padding-top: 10px;
+  padding-left: 20px;
 }
 .main-info
 {
-  line-height: 20px;
+  line-height: 25px;
 }
 .main-info p{
   font-size: 24px;
@@ -51,6 +59,11 @@ body
 {
   font-size: 16px;
   color: #616161;
+  background-color: #EEEEEE;
+  padding-top:10px;
+  padding-bottom: 10px;
+  border-radius: 3px;
+
 }
 .work-and-skill
 {
@@ -118,6 +131,10 @@ body
   border-radius: 3px;
   margin-bottom: 10px;
 }
+.skill-fill:hover
+{
+  background-color: #FFE082;
+}
 .skill-fill-10
 {
   width: 10%;
@@ -157,6 +174,65 @@ body
 .skill-fill-100
 {
   width: 100%;
+}
+.resume-projects
+{
+  background-color: #424242;
+  padding: 10px 10px 10px 10px;
+
+}
+.resume-projects h3
+{
+  color: white;
+}
+.project-thumb
+{
+  height: 310px;
+  padding: 0 0 0 0;
+}
+.project-thumb:hover img
+{
+  opacity: 0.1;
+}
+.project-img
+{
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  display: block;
+}
+.project-caption
+{
+  color: white;
+  opacity: 1;
+  margin-top: -200px;
+  padding: 5px;
+  position: absolute;
+}
+.project-name
+{
+  color: white;
+  opacity: 1;
+  margin-top: -310px;
+  padding: 5px;
+  font-weight: bold;
+  position: absolute;
+}
+.project-link
+{
+  display:inline-block;
+  color: white;
+  background-color: #EF5350;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  margin-top: -30px;
+  margin-left: 130px;
+  padding: 5px;
+  position: absolute;
+}
+.project-link:hover
+{
+  background-color: #E57373;
 }
 .resume-footer
 {
