@@ -15,7 +15,7 @@ body
 .img-box
 {
   height:100%;
-  border-radius: 3px;
+  
 }
 .row-cast-shadow
 {
@@ -34,7 +34,7 @@ body
 }
 .profile-img-frame
 {
-
+  background-color: #EEEEEE;
   padding: 10px 10px 10px 10px;
 }
 .about-box

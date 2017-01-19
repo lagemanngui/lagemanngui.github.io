@@ -6,60 +6,99 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/animation.js"></script>
     <title>Meu Curriculum</title>
   </head>
   <body>
 
-      <div class="container-fluid">
+      <div class="container-fluid" ng-app="myResume" ng-controller="resumeController">
 
         <div class="row row-cast-shadow row-eq-height">
           <div class="col-md-2 default-profile-box profile-img-frame">
-            <img src="img/profile.jpg" class="img-box" alt="Profile Image">
+            <img src={{"img/".concat(profileImage)}} class="img-box" alt="Profile Image">
           </div>
 
           <div class="col-md-6 main-info default-profile-box">
-            <span class="resume-name">Guilherme Dias Lagemann</span>
-            <p><span class="glyphicon glyphicon-education color-dark-grey"></span><b> Computer Science</b> <small>at Universidade Federal de Pelotas</small></p>
+            <span class="resume-name">{{name}}</span>
+            <p><span class="glyphicon glyphicon-education color-dark-grey"></span>
+              <b> {{course}}</b> <small>at {{college}}</small></p>
 
             <div class="local-info">
-              <span class="glyphicon glyphicon-map-marker"></span> Pelotas, Brazil <br>
-              <span class="glyphicon glyphicon-globe"></span> <a href="http://lagemanngui.github.io/"
-              target="blank">lagemanngui.github.io</a>
+              <span class="glyphicon glyphicon-map-marker"></span> {{city}}, {{country}} <br>
+              <span class="glyphicon glyphicon-globe"></span>
+              <a href={{"http://".concat(site)}} target="blank">{{site}}</a>
             </div>
           </div>
 
 
 
-
+          <!-- Contact section with cellphone number, e-mail
+          and social media profile -->
           <div class="col-md-4 contact-profile-box">
-            <h2>Contact Information</h2>
+            <h2>Contato</h2>
             <span class="glyphicon glyphicon-earphone"></span> +55 (53) 9999 12915<br>
             <span class="glyphicon glyphicon-envelope"></span> guilherme.dlagemann@gmail.com <br>
             <br>
-            <a href="#"><img src="img/social/linkedin.png" class="social-button" alt="Linkedin Icon"/></a>
-            <a href="#"><img src="img/social/github.png" class="social-button" alt="Github Icon"/></a>
-            <a href="#"><img src="img/social/facebook.png" class="social-button" alt="Facebook Icon"/></a>
-            <a href="#"><img src="img/social/twitter.png" class="social-button" alt="Twitter Icon"/></a>
+
+            <!-- Linkedin Profile -->
+            <a href={{"https://www.linkedin.com/in/".concat(linkedin)}} target="_blank">
+              <img ng-src="img/social/linkedin.png"
+              ng-hide="linkedin == 'null'"
+              class="social-button" alt="Linkedin Icon"/></a>
+
+              <!-- Facebook Profile -->
+            <a href={{"https://facebook.com/".concat(facebook)}} target="_blank">
+              <img ng-src="img/social/facebook.png"
+              ng-hide = "facebook == 'null'"
+              class="social-button" alt="Facebook Icon"/></a>
+
+              <!-- Twiiter Profile -->
+            <a href={{"https://twitter.com/".concat(twitter)}} target="_blank">
+              <img ng-src="img/social/twitter.png"
+              ng-hide = "twitter == 'null'"
+              class="social-button" alt="Twitter Icon"/></a>
+
+              <!-- Github Profile -->
+            <a href={{"https://github.com/".concat(github)}} target="_blank">
+              <img ng-src="img/social/github.png"
+              ng-hide ="github == 'null'"
+              class="social-button" alt="Github Icon"/></a>
         </div>
       </div>
+      <!-- End of the contact section -->
 
+
+      <!-- About section -->
         <div class="row">
           <div class="col-md-12 about-box">
-            <h3>ABOUT</h3>
+            <h3>SOBRE</h3>
             <div class="container">
 
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eros ex, vulputate sit amet diam id, dignissim venenatis purus. Curabitur et auctor lacus. Mauris bibendum vitae est a venenatis. Curabitur ipsum metus, faucibus interdum leo et, cursus sodales dui. Nulla at fermentum tellus. Nunc quam sapien, imperdiet a tincidunt ut, tristique at nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Sed eros ex, vulputate sit amet diam id, dignissim venenatis purus.
+              Curabitur et auctor lacus. Mauris bibendum vitae est a venenatis.
+              Curabitur ipsum metus, faucibus interdum leo et, cursus sodales dui.
+              Nulla at fermentum tellus. Nunc quam sapien, imperdiet a tincidunt ut, t
+              ristique at nunc. Vestibulum ante ipsum primis in faucibus orci luctus et
+              ultrices posuere cubilia Curae;
             </p>
           </div>
           </div>
         </div>
+        <!-- End of about section -->
 
+
+        <!-- Work and skills section -->
         <div class="container-fluid work-and-skill-bg">
           <div class="row">
+            <!-- Work experience -->
             <div class="col-md-6 work-and-skill">
               <span class="separator"></span>
-              <h3>WORK EXPERIENCE</h3>
+              <h3>EXPERIÊNCIA DE TRABALHO</h3>
 
               <p class="year">2016</p>
               <p class="work-place">Universidade Federal de Pelotas</p>
@@ -83,9 +122,10 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eros ex, vulputate sit amet diam id</blockquote>
                 </div>
 
+            <!-- Skills section -->
             <div class="col-md-6 work-and-skill">
               <span class="separator color-yellow"></span>
-              <h3>SKILLS</h3>
+              <h3>HABILIDADES</h3>
               <span class="skill-name">HTML5/CSS/JS</span>
               <div class="skill-bar-bg"><div class="skill-fill skill-fill-90"></div></div>
 
@@ -124,12 +164,17 @@
             </div>
           </div>
         </div>
+        <!-- End of work and skills section -->
 
+        <!-- Projects section  -->
+        <!-- Maximum of 4 projects, a button name "VIEW MORE" can link for external
+        projects source -->
         <div class="row">
           <div class="col-sm-12 resume-projects">
             <div class="separator color-red"></div>
-            <h3>PROJECTS</h3>
+            <h3>PROJETOS</h3>
 
+            <!-- Project 1 -->
             <div class="col-sm-3 project-thumb">
 
               <img class="project-img" src="http://www.os-templates.com/website-templates/template-demos/free-website-templates/ostenien/thumb.jpg" alt="">
@@ -141,6 +186,7 @@
 
             </div>
 
+            <!-- Project 2 -->
             <div class="col-sm-3 project-thumb">
               <img class="project-img" src="https://cdn.dreamtemplate.com/product/images/3/4117/20090306201557_1.jpg" alt="">
               <span class="project-name">SHIT WEB SITE 2</span>
@@ -150,6 +196,7 @@
                 <span class="project-link">View</span></a>
             </div>
 
+            <!-- Project 3 -->
             <div class="col-sm-3 project-thumb">
               <img class="project-img" src="http://www.os-templates.com/website-templates/template-demos/free-website-templates/yourchoice/thumb.jpg" alt="">
               <span class="project-name">SHIT WEB SITE 3</span>
@@ -159,6 +206,7 @@
                 <span class="project-link">View</span></a>
             </div>
 
+            <!-- Project 4 -->
             <div class="col-sm-3 project-thumb">
               <img class="project-img" src="https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/cake-clean-landing-page-html5-website-template.jpg" alt="">
               <span class="project-name">SHIT WEB SITE 4</span>
@@ -168,14 +216,19 @@
                 <span class="project-link">View</span></a>
             </div>
 
+            <!-- VIEW MORE button, will be disabled if user choose so -->
             <a href="" target="_blank">
             <span class="see-more">VIEW MORE</span></a>
           </div>
         </div>
+        <!-- End of Projects section -->
 
+
+        <!-- Additional Information section, if left blank by user
+         will not be displayed -->
         <div class="row">
           <div class="col-md-12 more-info">
-            <h3>ADDITIONAL INFORMATION</h3>
+            <h3>OUTRAS INFORMAÇÕES</h3>
             <div class="container">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eros ex, vulputate sit amet diam id
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -193,21 +246,22 @@
             </div>
           </div>
         </div>
+        <!-- End of Addiotnal Information -->
 
+        <!-- Final optional quote -->
         <div class="row">
           <div class="col-md-12 final-quote">
             <img src="img/quotations-button.png" alt=""><br> Just cause you got the monkey off your back doesn't mean the circus has left town.
             <p class="quote-author"> - Some Asshole </p>
           </div>
         </div>
+        <!-- End of optional quote -->
 
     </div>
+    <!-- End of resume -->
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/angular.min.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
-    <script type="text/javascript" src="js/animation.js"></script>
+
 
   </body>
 </html>
