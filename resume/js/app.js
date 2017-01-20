@@ -4,7 +4,7 @@ app.controller("resumeController", function($scope)
 {
   //Cover Information
   $scope.profileImage = "profile.jpg"
-  $scope.name = "Nathalia";
+  $scope.name = "Guilherme Dias Lagemann";
   $scope.course = "Ciência da Computação";
   $scope.college = "Universidade Federal de Pelotas"
 
