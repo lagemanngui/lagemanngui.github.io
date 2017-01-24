@@ -18,15 +18,14 @@
 
         <div class="row row-cast-shadow row-eq-height">
           <div class="col-md-2 default-profile-box profile-img-frame">
-            <img src={{"img/".concat(profileImage)}} class="img-box" alt="Profile Image">
+            <img ng-src={{"img/".concat(profileImage)}} class="img-box" alt="Profile Image">
           </div>
 
-          <div class="col-md-6 main-info default-profile-box">
+          <div class="col-md-7 main-info default-profile-box">
             <span class="resume-name">{{name}}</span>
-            <p><span class="glyphicon glyphicon-education color-dark-grey"></span>
-              <b> {{course}}</b> <small>at {{college}}</small></p>
+            <p><b>Front-End Developer</b></p>
 
-            <div class="local-info">
+            <div class="col-sm-12 local-info cast-shadow">
               <span class="glyphicon glyphicon-map-marker"></span> {{city}}, {{country}} <br>
               <span class="glyphicon glyphicon-globe"></span>
               <a href={{"http://".concat(site)}} target="blank">{{site}}</a>
@@ -37,7 +36,7 @@
 
           <!-- Contact section with cellphone number, e-mail
           and social media profile -->
-          <div class="col-md-4 contact-profile-box">
+          <div class="col-md-3 contact-profile-box">
             <h2>Contato</h2>
             <span class="glyphicon glyphicon-earphone"></span> +55 (53) 9999 12915<br>
             <span class="glyphicon glyphicon-envelope"></span> guilherme.dlagemann@gmail.com <br>
@@ -74,7 +73,7 @@
       <!-- About section -->
         <div class="row">
           <div class="col-md-12 about-box">
-            <h3>SOBRE</h3>
+            <div class="about-box-arrow"></div><h3>SOBRE</h3>
             <div class="container">
 
             <p>
@@ -174,46 +173,143 @@
             <div class="separator color-red"></div>
             <h3>PROJETOS</h3>
 
-            <!-- Project 1 -->
-            <div class="col-sm-3 project-thumb">
-
-              <img class="project-img" src="http://www.os-templates.com/website-templates/template-demos/free-website-templates/ostenien/thumb.jpg" alt="">
-              <span class="project-name">SHIT WEB SITE 1</span>
-              <span class="project-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eros ex, vulputate sit amet diam id
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-              <a target="blank" href="">
-                <span class="project-link">View</span></a>
-
+            <div class="col-sm-12">
+              <!-- Projeto 1 -->
+              <div class="row project-row resume-row cast-shadow">
+              <div class="col-sm-4 project-pic">
+                <img ng-src="http://www.webdesign-inspiration.com/images/themeforest/salient.jpg" alt="">
+              </div>
+              <div class="col-sm-4 project-desc">
+                <h3>NOME DO PROJETO 1</h3>
+                <span class="project-caption">
+                  Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                  projects source
+                  Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                  projects source, Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                  projects source, Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                  projects source, Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                  projects source
+                </span>
+              </div>
+              <div class="col-sm-4 project-specs">
+                <h3>PARTICIPAÇÃO</h3>
+                <div class="project-specs --spec-definition">
+                  <span>Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                  projects source
+                  Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                  projects source, Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                  projects source, Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                  projects source, Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                  projects source
+                </span>
+                <a href="#"><span class="view-project">Acessar</span></a>
+                </div>
+              </div>
             </div>
 
-            <!-- Project 2 -->
-            <div class="col-sm-3 project-thumb">
-              <img class="project-img" src="https://cdn.dreamtemplate.com/product/images/3/4117/20090306201557_1.jpg" alt="">
-              <span class="project-name">SHIT WEB SITE 2</span>
-              <span class="project-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eros ex, vulputate sit amet diam id
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-              <a target="blank" href="">
-                <span class="project-link">View</span></a>
+              <!-- Projeto 2 -->
+
+              <div class="row project-row resume-row cast-shadow">
+              <div class="col-sm-4 project-pic">
+                <img ng-src="http://www.webdesign-inspiration.com/images/themeforest/salient.jpg" alt="">
+              </div>
+              <div class="col-sm-4 project-desc">
+                <h3>NOME DO PROJETO 2</h3>
+                <span class="project-caption">
+                  Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                  projects source
+                  Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                  projects source, Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                  projects source, Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                  projects source, Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                  projects source
+                </span>
+              </div>
+              <div class="col-sm-4 project-specs">
+                <h3>PARTICIPAÇÃO</h3>
+                <div class="project-specs --spec-definition">
+                  <span>Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                  projects source
+                  Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                  projects source, Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                  projects source, Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                  projects source, Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                  projects source
+                </span>
+                <a href="#"><span class="view-project">Acessar</span></a>
+                </div>
+              </div>
             </div>
 
-            <!-- Project 3 -->
-            <div class="col-sm-3 project-thumb">
-              <img class="project-img" src="http://www.os-templates.com/website-templates/template-demos/free-website-templates/yourchoice/thumb.jpg" alt="">
-              <span class="project-name">SHIT WEB SITE 3</span>
-              <span class="project-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eros ex, vulputate sit amet diam id
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-              <a target="blank" href="">
-                <span class="project-link">View</span></a>
+            <!-- Projeto 3 -->
+            <div class="row project-row resume-row cast-shadow">
+            <div class="col-sm-4 project-pic">
+              <img ng-src="http://www.webdesign-inspiration.com/images/themeforest/salient.jpg" alt="">
             </div>
+            <div class="col-sm-4 project-desc">
+              <h3>NOME DO PROJETO 3</h3>
+              <span class="project-caption">
+                Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                projects source
+                Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                projects source, Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                projects source, Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                projects source, Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                projects source
+              </span>
+            </div>
+            <div class="col-sm-4 project-specs">
+              <h3>PARTICIPAÇÃO</h3>
+              <div class="project-specs --spec-definition">
+                <span>Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                projects source
+                Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                projects source, Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                projects source, Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                projects source, Maximum of 4 projects, a button name "VIEW MORE" can link for external
+                projects source
+              </span>
+              <a href="#"><span class="view-project">Acessar</span></a>
+              </div>
+            </div>
+          </div>
 
-            <!-- Project 4 -->
-            <div class="col-sm-3 project-thumb">
-              <img class="project-img" src="https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/cake-clean-landing-page-html5-website-template.jpg" alt="">
-              <span class="project-name">SHIT WEB SITE 4</span>
-              <span class="project-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eros ex, vulputate sit amet diam id
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-              <a target="blank" href="">
-                <span class="project-link">View</span></a>
+          <!-- Projeto 4 -->
+
+          <div class="row project-row resume-row cast-shadow">
+          <div class="col-sm-4 project-pic">
+            <img ng-src="http://www.webdesign-inspiration.com/images/themeforest/salient.jpg" alt="">
+          </div>
+          <div class="col-sm-4 project-desc">
+            <h3>NOME DO PROJETO 4</h3>
+            <span class="project-caption">
+              Maximum of 4 projects, a button name "VIEW MORE" can link for external
+              projects source
+              Maximum of 4 projects, a button name "VIEW MORE" can link for external
+              projects source, Maximum of 4 projects, a button name "VIEW MORE" can link for external
+              projects source, Maximum of 4 projects, a button name "VIEW MORE" can link for external
+              projects source, Maximum of 4 projects, a button name "VIEW MORE" can link for external
+              projects source
+            </span>
+          </div>
+          <div class="col-sm-4 project-specs">
+            <h3>PARTICIPAÇÃO</h3>
+            <div class="project-specs --spec-definition">
+              <span>Maximum of 4 projects, a button name "VIEW MORE" can link for external
+              projects source
+              Maximum of 4 projects, a button name "VIEW MORE" can link for external
+              projects source, Maximum of 4 projects, a button name "VIEW MORE" can link for external
+              projects source, Maximum of 4 projects, a button name "VIEW MORE" can link for external
+              projects source, Maximum of 4 projects, a button name "VIEW MORE" can link for external
+              projects source
+            </span>
+            <a href="#"><span class="view-project">Acessar</span></a>
+            </div>
+          </div>
+        </div>
+
+
+
             </div>
 
             <!-- VIEW MORE button, will be disabled if user choose so -->
@@ -228,7 +324,7 @@
          will not be displayed -->
         <div class="row">
           <div class="col-md-12 more-info">
-            <h3>OUTRAS INFORMAÇÕES</h3>
+            <h3>INFORMAÇÕES ADICIONAIS</h3>
             <div class="container">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eros ex, vulputate sit amet diam id
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
