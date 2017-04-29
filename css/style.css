@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Droid+Sans|Work+Sans');
 .main-div{
-  min-height: 100vh;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   width: 100%;
   font-family: 'Work Sans', sans-serif;
 }
@@ -27,7 +27,7 @@
 .profile-box{
 }
 .profile-box__pic{
-
+  text-align: center;
 }
 .profile-box__name{
   margin-top: 10px;
@@ -72,4 +72,18 @@
 }
 .profile-box__social img:hover{
   opacity: 1;
+}
+
+@media screen and (max-width: 1042px) {
+  .main-div{
+    width: 100%;
+  }
+  .main-div__first{
+    flex-basis: 100%;
+    width: 100%;
+  }
+  .main-div__second{
+    flex-basis: 100%;
+    width: 100%;
+  }
 }
