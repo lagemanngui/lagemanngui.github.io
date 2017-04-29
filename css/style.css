@@ -16,7 +16,7 @@
   background-color: #BDBDBD;
 }
 .--bg-light{
-  background-color: #6FB98F;
+  background-color: #E0E0E0;
 }
 .main-div__first{
   width: 30%;
@@ -38,8 +38,8 @@
 }
 .profile-box__sep{
   margin: 10px auto;
-  height: 4px;
-  width: 100px;
+  height: 4.42px;
+  width: 80px;
   border-radius: 50px;
   background-color: white;
 }
@@ -47,9 +47,29 @@
   margin-top: 10px;
   padding: 10px;
   text-align: left;
+  border-bottom: 1px solid #212121;
+}
+.profile-box__about img{
+  vertical-align: middle;
 }
 .profile-box__work h1{
   text-align: center;
   font-size: 18px;
   color: rgba(255,255,255,0.5);
+}
+.profile-box__social{
+  border-top: 1px solid white;
+  border-bottom: 1px solid #212121;
+  padding: 10px;
+}
+.profile-box__social h1{
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.profile-box__social img{
+  transition: all 250ms ease-out;
+  opacity: 0.5;
+}
+.profile-box__social img:hover{
+  opacity: 1;
 }
