@@ -30,8 +30,7 @@
   text-align: center;
 }
 .profile-box__pic img{
-  max-width: 400px;
-  height: 400px;
+  max-height: 400px;
 }
 .profile-box__name{
   margin-top: 10px;
