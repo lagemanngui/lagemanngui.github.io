@@ -29,6 +29,10 @@
 .profile-box__pic{
   text-align: center;
 }
+.profile-box__pic img{
+  width: 400px;
+  height: 400px;
+}
 .profile-box__name{
   margin-top: 10px;
   font-size: 24px;
@@ -79,7 +83,61 @@
 .profile-box__social img:hover{
   opacity: 1;
 }
+.projetos__item{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 5px;
+}
+.projetos__item-year{
+  text-align: center;
+  padding: 5px;
+  flex-basis: 10%;
+  color: white;
+  font-size: 18px;
+  background: #cb2d3e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.projetos__item-title{
+  padding: 10px;
+  width: 100%;
+  background-color: #BDBDBD;
+  border-bottom: 1px solid black;
+}
+.projetos__item-desc{
+  padding: 10px;
+  width: 100%;
+  color: white;
 
+}
+.projetos__item-desc a{
+  color: #529c8c;
+  font-weight: bold;
+}
+.projetos__item-desc i{
+  font-style: italic;
+  opacity: 0.7;
+}
+.projetos__header{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.projetos__title{
+  font-size: 24px;
+  color: black;
+  padding: 20px;
+  flex-basis: 10%;
+  border-right: 1px solid white;
+}
+.projetos__desc{
+  color: white;
+  padding: 20px;
+  flex-basis: 90%;
+  border-left: 1px solid black;
+}
 .footer-quote{
   background: #3a7bd5;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);  /* Chrome 10-25, Safari 5.1-6 */
