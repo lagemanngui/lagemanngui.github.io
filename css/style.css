@@ -22,7 +22,8 @@
   width: 30%;
 }
 .main-div__second{
-  width: 70%;
+  padding: 4px;
+  width: calc(70% - 8px);
 }
 .profile-box{
 }
@@ -103,7 +104,6 @@
   padding: 10px;
   width: 100%;
   background-color: #BDBDBD;
-  border-bottom: 1px solid black;
 }
 .projetos__item-desc{
   padding: 10px;
