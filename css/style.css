@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Droid+Sans|Work+Sans');
+html{
+  background-color: #212121;
+}
 .main-div{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
   font-family: 'Work Sans', sans-serif;
+  max-width: 1600px;
+  margin: 0 auto;
+
 }
 .--bg-dark{
   background-color: #212121;
@@ -104,6 +110,28 @@
   padding: 10px;
   width: 100%;
   background-color: #BDBDBD;
+}
+.projetos__item-acess{
+  border-top: 2px dotted rgba(255,255,255, 0.1);
+  margin-top: 5px;
+  padding-top: 10px;
+  text-align: right;
+}
+.projetos__item-acess a{
+  font-size: 16px;
+  color: #529C8C;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 1px;
+  transition: all 250ms ease-out;
+}
+.projetos__item-acess a:hover{
+  color: white;
+}
+.projetos__item-acess a::after{
+  content: url(../img/visit.png);
+  vertical-align: middle;
+  margin-left: 5px;
 }
 .projetos__item-desc{
   padding: 10px;
