@@ -2,13 +2,19 @@
 html{
   background-color: #212121;
   font-family: 'Montserrat', sans-serif;
+  padding: 0;
 }
 body{
   padding: 5%;
+  background-color: #212121;
+  background-image: url(http://cdn.avsforum.com/e/e4/e473429b_vbattach174861.jpeg);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 header
 {
-  padding-bottom: 100px;
+  padding-bottom: 70px;
 }
 header h1
 {
@@ -34,6 +40,7 @@ pre
   flex-wrap: wrap;
   min-height: 20px;
   width: 100%;
+
 }
 .about
 {
@@ -71,7 +78,7 @@ pre
 
 }
 .window__top:hover{
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.8);
 }
 .window__top:hover .window__title h1{
   opacity: 1;
