@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 html{
   background-color: #212121;
   font-family: 'Montserrat', sans-serif;
@@ -20,6 +20,10 @@ header h2
 {
   color: rgba(255,255,255,0.5);
   letter-spacing: 0.2em;
+}
+pre
+{
+  word-wrap: break-word;
 }
 .header__name{
   display: inline-block;
@@ -59,7 +63,7 @@ header h2
 .window__top{
   height: 24px;
   background-color: rgba(0,0,0,0.4);
-  padding: 5px 5px 5px 20px;
+  padding: 5px 10px 5px 20px;
   display: flex;
   justify-content: space-between;
   transition: all 250ms ease-out;
@@ -81,6 +85,7 @@ header h2
   transition: all 250ms ease-out;
   opacity: 0.5;
   display: inline-block;
+  letter-spacing: 0.2em;
 }
 .window__hide
 {
@@ -88,4 +93,11 @@ header h2
   height: 20px;
   border-radius: 40px;
   background-color: #8BC34A;
+}
+.window__text
+{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 14px;
+  padding: 10px;
+  color: white;
 }
