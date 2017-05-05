@@ -15,3 +15,13 @@ function setWindowText(where, text)
     '<div class="window__text"><p>'+text+'</p></div>'
   );
 }
+
+function readStringFromFileAtPath(pathOfFileToReadFrom)
+{
+        var request = new XMLHttpRequest();
+        request.open("GET", pathOfFileToReadFrom, false);
+        request.send(null);
+        var returnValue = request.responseText;
+
+        return returnValue;
+}

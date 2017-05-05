@@ -1,0 +1,6 @@
+<li>Analyze User Needs</li>
+<li>Android Programming Experience</li>
+<li>C# and .NET Programming Experience</li>
+<li>Comfortable Writing and Analyzing SQL Queries </li>
+<li>Develop Software From Scratch </li>
+<li>Experience With Git and Github </li>
