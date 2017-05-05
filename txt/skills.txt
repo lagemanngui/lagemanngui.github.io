@@ -1,6 +1,16 @@
-<li>Analyze User Needs</li>
-<li>Android Programming Experience</li>
-<li>C# and .NET Programming Experience</li>
-<li>Comfortable Writing and Analyzing SQL Queries </li>
-<li>Develop Software From Scratch </li>
-<li>Experience With Git and Github </li>
+<section>+++Software Engineering</section>
+
+<span>Analyze User Need</span>
+<span>Android Programming Experience</span>
+<span>C# and .NET Programming Experience</span>
+<span>Comfortable Writing and Analyzing SQL Queries </span>
+<span>Develop Software From Scratch </span>
+<span>Experience With Git and Github </span>
+
+<section>+++Programming Languages </section>
+
+<span>PHP 5.6+ </span>
+<span>HTML/CSS/JavaScript</span>
+<span>Java</span>
+<span>C#</span>
+<span>C/C++</span>
