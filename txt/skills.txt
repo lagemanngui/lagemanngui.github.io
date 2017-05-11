@@ -1,16 +1,28 @@
-<section>+++Software Engineering</section>
+<section>---Software Engineering---</section>
 
-<span>Analyze User Need</span>
-<span>Android Programming Experience</span>
-<span>C# and .NET Programming Experience</span>
-<span>Comfortable Writing and Analyzing SQL Queries </span>
-<span>Develop Software From Scratch </span>
-<span>Experience With Git and Github </span>
+<span>Analyze user needs</span>
+<span>Analyze, design and implement Database Structures</span>
+<span>Agile Software Development</span>
+<br>
 
-<section>+++Programming Languages </section>
-
+<section>---Programming Languages---</section>
 <span>PHP 5.6+ </span>
 <span>HTML/CSS/JavaScript</span>
 <span>Java</span>
 <span>C#</span>
 <span>C/C++</span>
+<br>
+
+<section>---Frameworks & Libraries---</section>
+<span>Js.jQuery</span>
+<span>Js.AngularJs</span>
+<span>Js.VelocityJs</span>
+<span>PHP.CodeIgniter 3.x</span>
+<span>PHP.Laravel</span>
+<br>
+
+<section>---Other---</section>
+<span>Adobe Photoshop</span>
+<span>Adobe Illustrator</span>
+<span>Microsoft Office Package</span>
+<span>Consistently seeking and learning new technology</span>
