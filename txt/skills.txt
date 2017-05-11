@@ -3,6 +3,9 @@
 <span>Analyze user needs</span>
 <span>Analyze, design and implement Database Structures</span>
 <span>Agile Software Development</span>
+<span>Design patterns</span>
+<span>Responsive and cross-platform application development</span>
+<span>Version control with Github</span>
 <br>
 
 <section>---Programming Languages---</section>
@@ -11,14 +14,18 @@
 <span>Java</span>
 <span>C#</span>
 <span>C/C++</span>
+<span>Haxe</span>
 <br>
 
 <section>---Frameworks & Libraries---</section>
-<span>Js.jQuery</span>
-<span>Js.AngularJs</span>
-<span>Js.VelocityJs</span>
-<span>PHP.CodeIgniter 3.x</span>
-<span>PHP.Laravel</span>
+<span>CSS__Bootstrap</span>
+<span>Js___jQuery</span>
+<span>Js___AngularJs</span>
+<span>Js___VelocityJs</span>
+<span>PHP__CodeIgniter 3.x</span>
+<span>PHP__Laravel</span>
+<span>PHP__Composer</span>
+<span>Cordova/PhoneGap</span>
 <br>
 
 <section>---Other---</section>
