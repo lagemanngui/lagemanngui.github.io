@@ -33,4 +33,3 @@
 <span>Adobe Illustrator</span>
 <span>Microsoft Office Package</span>
 <span>WordPress</span>
-<span>Consistently seeking and learning new technology</span>
