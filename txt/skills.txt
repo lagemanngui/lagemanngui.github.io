@@ -1,11 +1,11 @@
 <section>---Software Engineering---</section>
 
-<span>Analyze user needs</span>
-<span>Analyze, design and implement Database Structures</span>
-<span>Agile Software Development</span>
-<span>Design patterns</span>
-<span>Responsive and cross-platform application development</span>
-<span>Version control with Github</span>
+<span>Analíse de necessidade de usuário</span>
+<span>Analisar, projetar e implementar Banco de Dados</span>
+<span>Desenvolvimento Ágil de Software</span>
+<span>Padrões de Projeto</span>
+<span>Criação de aplicações responsivas e <i>cross-platform</i></span>
+<span>Controle de versão utilizando GitHub</span>
 <br>
 
 <section>---Programming Languages---</section>
