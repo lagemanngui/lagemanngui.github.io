@@ -168,6 +168,7 @@ background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%)
   transition: all 250ms ease-out;
   outline: none;
   color: #424242;
+  border: 1px solid rgba(255,255,255,0.3);
 
 }
 .add-button:hover{
