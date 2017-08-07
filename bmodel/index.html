@@ -56,14 +56,29 @@
         .delete-item{
           display: none;
         }
+        footer{
+          display: none;
+        }
+        .top-nav{
+          display: none;
+        }
       </style>
+
         <div class="app">
+          <div class="info">
+            <p>Documento salvo com sucesso...</p>
+          </div>
+          <nav class="top-nav">
+            <button type="button" name="button" onClick="saveModelo()">Salvar</button>
+            <button type="button" name="button" onClick="clearData()">Limpar</button>
+            <button type="button" name="button" onClick="openHelp()">Ajuda</button>
+            <span class="beta-tag">BETA</span>
+          </nav>
           <div class="page-title">
             <h1 class=""><input type="text" name="" value="Meu Modelo de Negócio" class="drop-t-shadow"></h1>
           </div>
           <div class="box-container">
-
-            <div class="box box-full proposta drop-shadow">
+            <div class="box box-full proposta drop-shadow" >
               <div class="box-title">
                 <h1>Proposta de Valor</h1>
                 <div class="box-icon">
@@ -72,7 +87,7 @@
               </div>
 
 
-              <div class="box-body">
+              <div class="box-body" id="modelo_proposta">
               </div>
 
               <div class="add-container">
@@ -87,7 +102,7 @@
                   <img src="img/recursos.png" alt="">
                 </div>
               </div>
-              <div class="box-body">
+              <div class="box-body" id="modelo_recursos">
               </div>
               <div class="add-container">
                 <button type="button" name="add" class="add-button drop-shadow">Adicionar</button>
@@ -101,7 +116,7 @@
                   <img src="img/parceiros.png" alt="">
                 </div>
               </div>
-              <div class="box-body">
+              <div class="box-body" id="modelo_parceiros">
 
               </div>
               <div class="add-container">
@@ -116,7 +131,7 @@
                   <img src="img/atividades.png" alt="">
                 </div>
               </div>
-              <div class="box-body">
+              <div class="box-body" id="modelo_atividades">
 
               </div>
               <div class="add-container">
@@ -133,7 +148,7 @@
                   <img src="img/canais.png" alt="">
                 </div>
               </div>
-              <div class="box-body">
+              <div class="box-body" id="modelo_canais">
 
 
               </div>
@@ -149,7 +164,7 @@
                   <img src="img/segmentos.png" alt="">
                 </div>
               </div>
-              <div class="box-body">
+              <div class="box-body" id="modelo_segmentos">
 
               </div>
               <div class="add-container">
@@ -159,12 +174,12 @@
 
             <div class="box drop-shadow area-2">
               <div class="box-title">
-                <h1>Relacionamento com o Cliente</h1>
+                <h1>Relacionamento</h1>
                 <div class="box-icon">
                   <img src="img/relacionamento.png" alt="">
                 </div>
               </div>
-              <div class="box-body">
+              <div class="box-body" id="modelo_relacionamento">
 
 
               </div>
@@ -182,7 +197,7 @@
                   <img src="img/custos.png" alt="">
                 </div>
               </div>
-              <div class="box-body">
+              <div class="box-body" id="modelo_custos">
 
               </div>
               <div class="add-container">
@@ -197,7 +212,7 @@
                   <img src="img/fontes.png" alt="">
                 </div>
               </div>
-              <div class="box-body">
+              <div class="box-body" id="modelo_receita">
 
 
               </div>
@@ -228,6 +243,8 @@
               feito pelo canal "Tamo Junto". Os ícones desta página foram feitos por <a href="https://www.flaticon.com/authors/gregor-cresnar">Gregor Cresnar</a>,
               <a href="https://www.flaticon.com/authors/freepik">Freepik</a> e <a href="https://www.flaticon.com/authors/madebyoliver">Madebyoliver</a>. Este é um projeto open source,
               se você deseja contribuir de alguma forma, entre em contato no <a href="https://github.com/lagemanngui">Github</a>.
+              Atenção: Todos os dados são salvos localmente no seu computador, se você limpar seus dados de navegação não poderá mais
+              acessar o modelo criado. Não salvamos nenhum dado seu.
             </p>
             <br>
             <p>
@@ -235,7 +252,7 @@
           </p>
           </div>
           <div class="version">
-            <p><i>Versão 1.8.17</i></p>
+            <p><i>Versão 1.8.17b</i></p>
           </div>
         </footer>
 
