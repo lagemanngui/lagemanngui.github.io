@@ -1,67 +1,62 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-html{
-  font-family:"Roboto", "Arial", sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+html,body{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
 h1,h2,h3{
   margin: 0;
   padding: 0;
+  font-weight: 300;
 }
 *{
   box-sizing: border-box;
 }
-a{
+.main-class{
+  padding-top: 20vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /*min-height: 100vh;*/
+}
+.main-class h1,h2,h3{
+  text-align: center;
+  flex-basis: 100%;
+}
+.main-class h2{
+  color: rgba(0,0,0,0.5);
+}
+.apps-body{
+  padding-top: 10vh;
+}
+.main-class a{
+  color: #3F51B5;
   text-decoration: none;
 }
-.main-class{
-  background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
-  height: 100vh;
-  width: 100vw;
-  padding-top: 10vh;
-  text-align: center;
-  color: white;
-}
-.main-class h1,h2{
-  text-shadow: 0px 2px 1px rgba(0,0,0,0.30);
-}
-.apps{
-  background-color: #F5F5F5;
-  width: 500px;
-  margin: 0 auto;
-  margin-top: 30px;
-  overflow: hidden;
-}
-.apps-title{
-  background-color: #424242;
-  padding: 10px;
-}
 .app-item{
-  color: #1976D2;
-  padding-left: 0;
-  text-align: left;
-  text-transform: uppercase;
+  padding: 0 10px 0 10px;
+    margin: 10px;
+    opacity: 0.7;
 }
 .app-item:hover{
-  cursor: pointer;
-  background-color: #1976D2;
-  color: white;
+  opacity: 1;
 }
-.app-item:hover span{
-
+.main-footer{
+  padding: 20px;
+  width: 100%;
+  background-color:#3F51B5;
+  color: rgba(255,255,255,0.5);
+  bottom: 0;
+  position: absolute;
+  font-size: 11pt;
 }
-.app-item span{
-  background-color: #1976D2;
-  color: white;
-  padding: 10px;
-  width: 90px;
-  display: inline-block;
+.main-footer a{
+  color: rgba(255,255,255,0.5);
 }
-.apps h1{
-  text-shadow: none;
-  font-size: 16px;
-  font-weight: normal;
-}
-.drop-shadow{
-  -webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
-  -moz-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
-  box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+.main-footer a:hover{
+  text-decoration: underline;
 }
