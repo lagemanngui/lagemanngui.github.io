@@ -81,11 +81,7 @@ p{
     width: 49%;
     /* padding: 20px; */
 }
-@media screen and (max-width: 1176px) {
-	.project-wrapper{
-        width: 100%;
-    }
-}
+
 
 .project-wrapper:hover img {
     filter: grayscale(0%);
@@ -164,4 +160,13 @@ p{
 .front-end{
     background-color: #5EB1BF;
 
+}
+
+@media screen and (max-width: 1176px) {
+	.project-wrapper{
+        width: 100%;
+    }
+    .project-pic img{
+        filter: none;
+    }
 }

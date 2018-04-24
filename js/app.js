@@ -16,7 +16,7 @@ var vue = new Vue({
                     desc: "Recorte e implementação de design criado no Photoshop. Utiliza a API do Google Maps para web.",
                     category: "Web",
                     pic: "http://amanfredi.adv.br/css/assets/capa.jpg",
-                    tags: [ "PHP", "front-end"],
+                    tags: ["PHP", "front-end"],
                     year: 2018
                 }, {
                     title: "Marklab - Marketing & Branding",
@@ -24,7 +24,7 @@ var vue = new Vue({
                     desc: "Implementação de um design criado pela agência de marketing Marklab com formulário de contato em PHP.",
                     category: "Web",
                     pic: "http://www.marklab.com.br/css/assets/capa.jpg",
-                    tags: [ "PHP", "front-end", "hospedagem"],
+                    tags: ["PHP", "front-end", "hospedagem"],
                     year: 2018
 
                 }, {
@@ -36,8 +36,7 @@ var vue = new Vue({
                     tags: ["PHP", "front-end", "joomla"],
                     year: 2018
 
-                },
-                 {
+                }, {
                     title: "Áudio de Culutra",
                     link: "https://play.google.com/store/apps/details?id=com.pixeltroop.audiodecultura",
                     desc: "Soundboard do programa online Choque de Cultura, com frases clássicas. Mais de 600 downloads.",
@@ -46,14 +45,13 @@ var vue = new Vue({
                     tags: ["Android", "UX/UI", "Godot 3"],
                     year: 2018
 
-                } ,
-                {
+                }, {
                     title: "Meu Novo Estilo de Vida",
                     link: "http://www.meunovoestilodevida.com.br/",
                     desc: "Adaptação de tema com plugin Essential Real State. Customização de formulários imobiliários.",
                     category: "Web",
                     pic: "https://i.imgur.com/utIhLd4.jpg",
-                    tags: [ "PHP", "front-end", "Wordpress"],
+                    tags: ["PHP", "front-end", "Wordpress"],
                     year: 2017
 
                 }, {
@@ -74,8 +72,7 @@ var vue = new Vue({
                     tags: ["jQuery", "front-end", "design"],
                     year: 2017
 
-                },
-                {
+                }, {
                     title: "Formulário Institucional de Autoavaliação de Cursos",
                     link: "",
                     desc: "Sistema com módulos de formulários complexos utilizado internamente pela UFPel para avaliação dos cursos",
@@ -84,8 +81,7 @@ var vue = new Vue({
                     tags: ["PHP", "MySQL", "back-end", "CodeIgniter"],
                     year: 2017
 
-                },
-                {
+                }, {
                     title: "Revista Grandeza Empresarial",
                     link: "http://revistagrandeza.com.br/",
                     desc: "Design e implementação de site com formulário de contato simples para a revista Grandeza.",
@@ -94,8 +90,7 @@ var vue = new Vue({
                     tags: ["design", "front-end"],
                     year: 2017
 
-                },
-                {
+                }, {
                     title: "WebSo Soundtracks",
                     link: "https://github.com/lagemanngui/webso-soundtrack-gui",
                     desc: "Aplicação usando web semântica e Sparql para encontrar trilhas sonoras de filmes.",
