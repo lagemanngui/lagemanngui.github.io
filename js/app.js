@@ -78,7 +78,7 @@ var vue = new Vue({
                 {
                     title: "Formulário Institucional de Autoavaliação de Cursos",
                     link: "",
-                    desc: "Sistema com vários módulos complexos utilizado internamente pela UFPel para avaliação dos cursos em vários aspectos.",
+                    desc: "Sistema com módulos de formulários complexos utilizado internamente pela UFPel para avaliação dos cursos",
                     category: "Web",
                     pic: "https://www.innovecs.com/wp-content/uploads/2017/11/photo-15088.jpg",
                     tags: ["PHP", "MySQL", "back-end", "CodeIgniter"],
